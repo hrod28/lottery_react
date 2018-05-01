@@ -1,6 +1,6 @@
-import web3 from './webe3';
+import web3 from './web3';
 
-const address = 0xd7cba7828BBa884920D80B2725A3Ff46cF3a412F
+const address = '0xd7cba7828BBa884920D80B2725A3Ff46cF3a412F'
 const abi = [{"constant":true,"inputs":[],"name":"manager",
 "outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},
 {"constant":false,"inputs":[],"name":"pickWinner","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},
